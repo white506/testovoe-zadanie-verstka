@@ -388,7 +388,7 @@ video {
 
 body {
   min-width: 1920px;
-  min-height: 1243px;
+  min-height: 100vh;
   overflow-x: auto;
 }
 
@@ -440,7 +440,7 @@ body {
 
 .footer {
   position: absolute;
-  width: 100%;
+  width: 1920px;
   background-color: #ffffff;
   height: 80px;
   display: flex;
@@ -489,6 +489,7 @@ body {
   text-decoration: none;
   transition: color 0.3s, text-decoration 0.3s;
   white-space: nowrap;
+  margin-right: 30px;
 }
 
 .footer__link:hover {
