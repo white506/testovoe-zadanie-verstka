@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Galdeano&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo-link">
+        <span class="icon-logo"
+          ><span class="path1"></span><span class="path2"></span
+          ><span class="path3"></span><span class="path4"></span
+          ><span class="path5"></span><span class="path6"></span
+        ></span>
+      </a>
+      <div class="header__version">
+        <span class="header__version-text">v 2.01</span>
+      </div>
+      <button class="header__icon-button" aria-label="Logout">
+        <span class="icon-sing-up header__icon"></span>
+      </button>
+    </header>
+
+    <main id="locations-page" class="locations-page">
+      <div class="container">
+        <aside class="sidebar">
+          <a href="index.html" class="sidebar__item">
+            <span class="icon icon-window sidebar__icon"></span>
+            <span class="sidebar__text">Имущество</span>
+          </a>
+          <a href="index.html" class="sidebar__item">
+            <span class="icon icon-calendar sidebar__icon"></span>
+            <span class="sidebar__text">Инвентаризация</span>
+          </a>
+          <a href="index.html" class="sidebar__item">
+            <span class="icon icon-notebook sidebar__icon"></span>
+            <span class="sidebar__text">Сотрудники</span>
+          </a>
+          <a href="index.html" class="sidebar__item">
+            <span class="icon icon-notification sidebar__icon"></span>
+            <span class="sidebar__text">Уведомления</span>
+          </a>
+          <a href="location.html" class="sidebar__item">
+            <span class="icon icon-location sidebar__icon"></span>
+            <span class="sidebar__text">Локации</span>
+          </a>
+          <a href="configure.html" class="sidebar__item">
+            <span class="icon icon-config sidebar__icon"></span>
+            <span class="sidebar__text">Настройки</span>
+          </a>
+          <a href="index.html" class="sidebar__item">
+            <span class="icon icon-left-arrow sidebar__icon"></span>
+            <span class="sidebar__text">Скрыть меню</span>
+          </a>
+        </aside>
+
+        <section class="locations">
+          <div class="locations__title">Локации / Все локации</div>
+          <header class="locations__header">
+            <div class="locations__buttons">
+              <button class="locations__button">Все локации</button>
+              <button class="locations__button">Импорт/Экспорт</button>
+              <button class="locations__button">Настройки</button>
+            </div>
+            <div class="locations__sync-status">
+              <button class="locations__sync-btn">
+                <span class="icon icon-refresh"></span>Синхронизация
+                <span>(17.02.2024 15:32:31)</span>
+              </button>
+            </div>
+          </header>
+
+          <div class="locations__toolbar">
+            <button class="locations__create-location-btn">
+              <span class="icon icon-plus-white"></span>Создать локацию
+            </button>
+            <div class="locations__toolbar-sidebar">
+              <div class="search-box__input">
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="checkbox-input" />
+                  <span class="icon-checkbox"
+                    ><span class="path1"></span><span class="path2"></span
+                    ><span class="path3"></span
+                  ></span>
+                  Поиск по точному совпадению
+                </label>
+                <div class="search-box__input">
+                  <span class="icon-search"></span>
+                  <input type="text" class="search-input" placeholder="Поиск" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="locations__content">
+            <ul class="locations__list">
+              <li class="locations__item">
+                <div class="locations__item-header">
+                  <span class="icon-delete"
+                    ><span class="path1"></span><span class="path2"></span
+                  ></span>
+                  <span class="icon-dots"></span>
+                  <span class="locations__item-name">Локация 1</span>
+                  <span class="locations__item-number">512</span>
+                  <span class="locations__item-actions">
+                    <a href="#" class="locations__action-edit"
+                      ><span class="icon-pencil"></span>Редактировать</a
+                    >
+                    <a href="#" class="locations__action-delete"
+                      ><span class="icon-cross"></span>Удалить</a
+                    >
+                  </span>
+                </div>
+                <ul class="locations__sublist">
+                  <li class="locations__subitem">
+                    <div class="locations__subitem-header">
+                      <span class="icon-add"
+                        ><span class="path1"></span><span class="path2"></span
+                        ><span class="path3"></span
+                      ></span>
+                      <span class="icon-dots"></span>
+                      <span class="locations__subitem-name">Подотдел 1</span>
+                      <span class="locations__subitem-number">10</span>
+                      <span class="locations__subitem-description"
+                        >Для учета</span
+                      >
+                    </div>
+                  </li>
+                  <li class="locations__subitem">
+                    <div class="locations__subitem-header">
+                      <span class="icon-delete"
+                        ><span class="path1"></span><span class="path2"></span
+                      ></span>
+                      <span class="icon-dots"></span>
+                      <span class="locations__subitem-name">Подотдел 2</span>
+                      <span class="locations__subitem-number">100</span>
+                    </div>
+                    <ul class="locations__subsublist">
+                      <li class="locations__subsubitem">
+                        <div class="locations__subsubitem-header">
+                          <span class="icon-dots"></span>
+                          <span class="locations__subsubitem-name"
+                            >Подподотдел 1</span
+                          >
+                          <span class="locations__subsubitem-number">2</span>
+                          <span class="locations__subsubitem-description"
+                            >Виртуальная</span
+                          >
+                          <span class="locations__subsubitem-description"
+                            >Без штрихкода</span
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="locations__subitem">
+                    <div class="locations__subitem-header">
+                      <span class="icon-add"
+                        ><span class="path1"></span><span class="path2"></span
+                        ><span class="path3"></span
+                      ></span>
+                      <span class="icon-dots"></span>
+                      <span class="locations__subitem-name">Подотдел 3</span>
+                      <span class="locations__subitem-number">400</span>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="locations__item">
+                <div class="locations__item-header">
+                  <span class="icon-add"
+                    ><span class="path1"></span><span class="path2"></span
+                    ><span class="path3"></span
+                  ></span>
+                  <span class="icon-dots"></span>
+                  <span class="locations__item-name">Локация 2</span>
+                  <span class="locations__item-number">100</span>
+                </div>
+              </li>
+              <li class="locations__item">
+                <div class="locations__item-header">
+                  <span class="icon-add"
+                    ><span class="path1"></span><span class="path2"></span
+                    ><span class="path3"></span
+                  ></span>
+                  <span class="icon-dots"></span>
+                  <span class="locations__item-name">Локация 3</span>
+                  <span class="locations__item-number">100</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="editModal" class="modal">
+      <div class="modal__content">
+        <h2>Изменить локацию %название%</h2>
+        <form>
+          <label for="editName" class="modal__label">Название</label>
+          <input
+            id="editName"
+            type="text"
+            placeholder="Название"
+            required
+            class="modal__input"
+          />
+
+          <label for="editBarcode" class="modal__label">Штрихкод</label>
+          <input
+            id="editBarcode"
+            type="text"
+            placeholder="Штрихкод"
+            required
+            class="modal__input"
+          />
+
+          <label for="editRFID" class="modal__label">RFID</label>
+          <input
+            id="editRFID"
+            type="text"
+            placeholder="RFID"
+            required
+            class="modal__input"
+          />
+
+          <label for="editNestedLocation" class="modal__label"
+            >Вложенность</label
+          >
+          <select id="editNestedLocation" required class="modal__select">
+            <option value="1">Локация1</option>
+            <option value="2">Локация2</option>
+          </select>
+
+          <div class="modal__switch-container">
+            <label class="modal__switch">
+              <span class="modal__switch-text">Виртуальная локация</span>
+              <input type="checkbox" aria-label="Toggle virtual location" />
+              <span class="modal__slider round"></span>
+            </label>
+          </div>
+
+          <div class="modal__switch-container">
+            <label class="modal__switch">
+              <span class="modal__switch-text">Локация для утерь</span>
+              <input type="checkbox" aria-label="Toggle lost location" />
+              <span class="modal__slider round"></span>
+            </label>
+          </div>
+
+          <div class="modal__buttons">
+            <div class="modal__action-buttons">
+              <button type="button" class="modal__delete-btn">
+                <span class="icon-cross"></span>Удалить
+              </button>
+              <button type="button" class="modal__cancel-btn">Отменить</button>
+            </div>
+            <button type="submit" class="modal__save-btn">
+              <span class="icon-save"></span>Сохранить
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="createModal" class="modal">
+      <div class="modal__content">
+        <h2>Создать локацию</h2>
+        <form>
+          <label for="createName" class="modal__label">Название</label>
+          <input
+            id="createName"
+            type="text"
+            placeholder="Название"
+            required
+            class="modal__input"
+          />
+
+          <label for="createBarcode" class="modal__label">Штрихкод</label>
+          <input
+            id="createBarcode"
+            type="text"
+            placeholder="Штрихкод"
+            required
+            class="modal__input"
+          />
+
+          <label for="createRFID" class="modal__label">RFID</label>
+          <input
+            id="createRFID"
+            type="text"
+            placeholder="RFID"
+            required
+            class="modal__input"
+          />
+
+          <label for="createNestedLocation" class="modal__label"
+            >Вложенность</label
+          >
+          <select id="createNestedLocation" required class="modal__select">
+            <option value="" disabled selected>Вложенность</option>
+            <option value="1">Локация1</option>
+            <option value="2">Локация2</option>
+          </select>
+
+          <div class="modal__switch-container">
+            <label class="modal__switch">
+              <span class="modal__switch-text">Виртуальная локация</span>
+              <input type="checkbox" aria-label="Toggle virtual location" />
+              <span class="modal__slider round"></span>
+            </label>
+          </div>
+
+          <div class="modal__switch-container">
+            <label class="modal__switch">
+              <span class="modal__switch-text">Локация для утерь</span>
+              <input type="checkbox" aria-label="Toggle lost location" />
+              <span class="modal__slider round"></span>
+            </label>
+          </div>
+
+          <div class="modal__buttons">
+            <div class="modal__action-buttons">
+              <button type="submit" class="modal__save-btn">
+                <span class="icon-save"></span>Создать
+              </button>
+              <button type="button" class="modal__cancel-btn">Отменить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container-settings">
+        <div class="footer__info">
+          <p class="footer__text">Последний приём 20.09.2021 18:36:21</p>
+          <p class="footer__text">Последняя передача 20.09.2021 18:38:21</p>
+        </div>
+        <div class="footer__documentation">
+          <a href="#" class="footer__link"
+            ><span class="footer__icon icon-documents"></span>Документация</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
