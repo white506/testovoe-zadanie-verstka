@@ -178,105 +178,126 @@ video {
   content: "\e900";
   color: #f60;
   font-size: 13px;
+  cursor: pointer;
 }
 .icon-arrow-down:before {
   content: "\e901";
   color: #f60;
+  cursor: pointer;
 }
 .icon-calendar:before {
   content: "\e902";
   color: #f60;
   font-size: 18px;
+  cursor: pointer;
 }
 .icon-checkbox .path1:before {
   content: "\e903";
   color: rgb(255, 102, 0);
+  cursor: pointer;
 }
 .icon-checkbox .path2:before {
   content: "\e904";
   margin-left: -1em;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .icon-checkbox .path3:before {
   content: "\e905";
   margin-left: -1em;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .icon-check-arrow:before {
   content: "\e906";
   color: #fff;
+  cursor: pointer;
 }
 .icon-checkbox-no:before {
   content: "\e907";
   color: #fff;
+  cursor: pointer;
 }
 .icon-config:before {
   content: "\e908";
   color: #f60;
   font-size: 14px;
+  cursor: pointer;
 }
 .icon-copy:before {
   content: "\e909";
   color: #f60;
   font-size: 23px;
   margin-left: 8px;
+  cursor: pointer;
 }
 .icon-cross:before {
   content: "\e90a";
   color: #ff5959;
   font-size: 10px;
   margin-right: 6px;
+  cursor: pointer;
 }
 .icon-documents:before {
   content: "\e90b";
   color: #f60;
   font-size: 19px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .icon-dots:before {
   content: "\e90c";
   color: #f60;
   font-size: 15px;
+  cursor: pointer;
 }
 .icon-help:before {
   content: "\e90d";
   color: #f60;
   font-size: 23px;
   margin-left: 263px;
+  cursor: pointer;
 }
 .icon-location:before {
   content: "\e90e";
   color: #f60;
   font-size: 18px;
+  cursor: pointer;
 }
 .icon-logo .path1:before {
   content: "\e90f";
   color: rgb(255, 102, 0);
+  cursor: pointer;
 }
 .icon-logo .path2:before {
   content: "\e910";
   margin-left: -0.55859375em;
   color: rgb(255, 102, 0);
+  cursor: pointer;
 }
 .icon-logo .path3:before {
   content: "\e911";
   margin-left: -0.55859375em;
   color: rgb(255, 102, 0);
+  cursor: pointer;
 }
 .icon-logo .path4:before {
   content: "\e912";
   margin-left: -0.55859375em;
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 .icon-logo .path5:before {
   content: "\e913";
   margin-left: -0.55859375em;
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 .icon-logo .path6:before {
   content: "\e914";
   margin-left: -0.55859375em;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .icon-delete .path1:before {
   content: "\e915";
@@ -295,16 +316,19 @@ video {
   content: "\e917";
   color: #f60;
   font-size: 14px;
+  cursor: pointer;
 }
 .icon-notification:before {
   content: "\e918";
   color: #f60;
+  cursor: pointer;
 }
 .icon-pencil:before {
   content: "\e919";
   color: #f60;
   font-size: 10px;
   margin-right: 6px;
+  cursor: pointer;
 }
 .icon-add .path1:before {
   content: "\e91a";
@@ -330,16 +354,19 @@ video {
   content: "\e91d";
   color: #fff;
   font-size: 14px;
+  cursor: pointer;
 }
 .icon-refresh:before {
   content: "\e91e";
   color: #fff;
   font-size: 19px;
+  cursor: pointer;
 }
 .icon-save:before {
   content: "\e91f";
   color: #fff;
   margin-right: 10px;
+  cursor: pointer;
 }
 .icon-search:before {
   content: "\e920";
@@ -350,11 +377,13 @@ video {
   content: "\e921";
   color: #f60;
   font-size: 14px;
+  cursor: pointer;
 }
 .icon-window:before {
   content: "\e922";
   color: #f60;
   font-size: 14px;
+  cursor: pointer;
 }
 
 body {
